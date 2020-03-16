@@ -1,0 +1,241 @@
+{
+  "keys": "/zhd/github/egg-extend-ua/test/fixtures/test-app/config/config.default.js",
+  "session": {
+    "maxAge": "/zhd/github/egg-extend-ua/node_modules/egg-session/config/config.default.js",
+    "key": "/zhd/github/egg-extend-ua/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/zhd/github/egg-extend-ua/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/zhd/github/egg-extend-ua/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js",
+      "type": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js",
+      "useSession": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js",
+      "headerName": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js",
+      "queryName": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js",
+      "value": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js",
+      "maxAge": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js",
+      "value": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js",
+      "value": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js",
+      "policy": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/zhd/github/egg-extend-ua/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/zhd/github/egg-extend-ua/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/zhd/github/egg-extend-ua/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/zhd/github/egg-extend-ua/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/zhd/github/egg-extend-ua/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/zhd/github/egg-extend-ua/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/zhd/github/egg-extend-ua/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/zhd/github/egg-extend-ua/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/zhd/github/egg-extend-ua/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/zhd/github/egg-extend-ua/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/zhd/github/egg-extend-ua/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/zhd/github/egg-extend-ua/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/zhd/github/egg-extend-ua/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/zhd/github/egg-extend-ua/node_modules/egg-watcher/config/config.unittest.js",
+    "eventSources": {
+      "default": "/zhd/github/egg-extend-ua/node_modules/egg-watcher/config/config.default.js",
+      "development": "/zhd/github/egg-extend-ua/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/zhd/github/egg-extend-ua/node_modules/egg-schedule/config/config.default.js",
+      "file": "/zhd/github/egg-extend-ua/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/zhd/github/egg-extend-ua/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/zhd/github/egg-extend-ua/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/zhd/github/egg-extend-ua/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/zhd/github/egg-extend-ua/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/zhd/github/egg-extend-ua/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/zhd/github/egg-extend-ua/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/zhd/github/egg-extend-ua/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/zhd/github/egg-extend-ua/node_modules/egg-multipart/config/config.default.js",
+    "files": "/zhd/github/egg-extend-ua/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/zhd/github/egg-extend-ua/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/zhd/github/egg-extend-ua/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/zhd/github/egg-extend-ua/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/zhd/github/egg-extend-ua/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/zhd/github/egg-extend-ua/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/zhd/github/egg-extend-ua/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/zhd/github/egg-extend-ua/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/zhd/github/egg-extend-ua/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/zhd/github/egg-extend-ua/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/zhd/github/egg-extend-ua/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/zhd/github/egg-extend-ua/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/zhd/github/egg-extend-ua/node_modules/egg-static/config/config.default.js",
+    "dir": "/zhd/github/egg-extend-ua/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/zhd/github/egg-extend-ua/node_modules/egg-static/config/config.default.js",
+    "preload": "/zhd/github/egg-extend-ua/node_modules/egg-static/config/config.default.js",
+    "buffer": "/zhd/github/egg-extend-ua/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/zhd/github/egg-extend-ua/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/zhd/github/egg-extend-ua/node_modules/egg-view/config/config.default.js",
+    "cache": "/zhd/github/egg-extend-ua/node_modules/egg-view/config/config.default.js",
+    "defaultExtension": "/zhd/github/egg-extend-ua/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/zhd/github/egg-extend-ua/node_modules/egg-view/config/config.default.js",
+    "mapping": "/zhd/github/egg-extend-ua/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+  "name": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+  "cookies": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+  "proxy": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "version": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+  "HOME": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+  "rundir": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "notFound": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "sitefile": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "middlewares": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "httpClient": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "encoding": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "formLimit": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "textLimit": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "strict": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+      "depth": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "encoding": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "env": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "level": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.unittest.js",
+    "disableConsoleAfterReady": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "outputJSON": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "buffer": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.unittest.js",
+    "appLogName": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "coreLogName": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "agentLogName": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "errorLogName": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "coreLogger": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "allowDebugAtProd": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+      "maxSockets": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+      "maxSockets": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "logging": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+      "port": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+      "hostname": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/zhd/github/egg-extend-ua/node_modules/egg/config/config.default.js"
+}

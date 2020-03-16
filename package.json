@@ -1,0 +1,48 @@
+{
+  "name": "egg-renderx",
+  "version": "1.0.2",
+  "description": "egg 视图自适应PC和移动端",
+  "eggPlugin": {
+    "name": "renderx",
+    "dependencies": [
+      "ua"
+    ],
+    "optionalDependencies": [],
+    "env": [
+      "local",
+      "test",
+      "unittest",
+      "prod"
+    ]
+  },
+  "dependencies": {
+    "egg-extend-ua": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "egg": "^2.26.0",
+    "egg-bin": "^4.11.0",
+    "egg-mock": "^3.25.1",
+    "egg-view-nunjucks": "^2.2.0"
+  },
+  "scripts": {
+    "build": "clear && rm -rf ./app ./lib && tsc",
+    "release": "clear && npm run build && git checkout master && git merge dev && git push origin master && nrm use npm && npm publish && git checkout dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zyyou/egg-renderx"
+  },
+  "keywords": [
+    "egg",
+    "egg-plugin",
+    "eggPlugin",
+    "egg-extend",
+    "eggextend",
+    "egg-render",
+    "render",
+    "egg-view"
+  ],
+  "author": "zyy",
+  "license": "MIT"
+}
